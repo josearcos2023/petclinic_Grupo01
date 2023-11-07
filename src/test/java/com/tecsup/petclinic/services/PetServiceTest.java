@@ -22,14 +22,12 @@ public class PetServiceTest {
 
     @Autowired
     private PetService petService;
-    
-    
 
     @Test
     public void testFindPetById() {
 
         Integer ID = 1;
-        String NAME = "Leo";
+        String NAME = "Leonardo";
         Pet pet = null;
 
         try {
